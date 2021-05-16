@@ -64,6 +64,7 @@ function generatePassword() {
     possibleChar = possibleChar.concat(specialCharacters);
     guaranteedChar.push(random(specialCharacters));
   }
+  
   if (options.hasNumbers) {
     possibleChar = possibleChar.concat(numericCharacters);
     guaranteedChar.push(random(numericCharacters));
@@ -76,9 +77,12 @@ function generatePassword() {
     possibleChar = possibleChar.concat(upperCasedCharacters);
     guaranteedChar.push(random(upperCasedCharacters));
   }
+
+  console.log ("possible", possibleChar)
+
   for (var i = 0; i < options.passwordLength; i++) {
-    var possibleChar = random(possibleChar);
-    result.push(possibleChar);
+    var individualChar = random(possibleChar);
+    result.push(individualChar);
   }
   for (var i = 0; i < guaranteedChar.length; i++) {
     result[i] = guaranteedChar[i];
@@ -86,7 +90,6 @@ function generatePassword() {
   return result.join('');
 
 }
-
 
 // Get references to the #generate element
 var generateBtn = document.querySelector("#generate");
