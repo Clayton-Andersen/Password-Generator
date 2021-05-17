@@ -13,3 +13,4 @@ https://github.com/Clayton-Andersen/Password-Generator
 ![image](https://user-images.githubusercontent.com/82545902/118430365-cad9a200-b688-11eb-9114-83221e5a1522.png)
 ## Code
 html and css provided as well as some starter javascript found in js file following comment // Get references to the #generate element
+permalink: /index.html
