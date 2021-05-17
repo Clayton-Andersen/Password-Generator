@@ -8,6 +8,7 @@ User may select any or all of the 4 character set types.
 If user chooses none of the allowed types, alert will request that they select at least one set type.
 ## Links
 ### Deployed Application 
+https://clayton-andersen.github.io/Password-Generator/
 https://github.com/Clayton-Andersen/Password-Generator
 ## Output of finished product img
 ![image](https://user-images.githubusercontent.com/82545902/118430365-cad9a200-b688-11eb-9114-83221e5a1522.png)
